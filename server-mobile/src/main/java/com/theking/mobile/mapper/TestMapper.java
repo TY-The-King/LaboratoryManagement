@@ -7,5 +7,6 @@ package com.theking.mobile.mapper;
  * @description
  * @date 2022/8/23 10:18
  */
-public class TestMapper {
+public interface TestMapper {
+
 }
