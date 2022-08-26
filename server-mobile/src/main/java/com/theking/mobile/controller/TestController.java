@@ -1,6 +1,5 @@
 package com.theking.mobile.controller;
 
-import com.theking.common.UtilConstant;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
