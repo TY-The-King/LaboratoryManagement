@@ -1,6 +1,8 @@
 package com.theking.pc.service;
 
-import org.springframework.stereotype.Service;
+import com.theking.pc.entity.TestEntity;
+
+import java.util.List;
 
 /**
  * @author TheKing
@@ -9,6 +11,8 @@ import org.springframework.stereotype.Service;
  * @description
  * @date 2022/8/23 10:19
  */
-@Service
 public interface TestService {
+
+    List<TestEntity> getTest();
+
 }

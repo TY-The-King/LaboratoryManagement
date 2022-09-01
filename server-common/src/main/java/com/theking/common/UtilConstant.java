@@ -25,9 +25,9 @@ public final class UtilConstant {
 
     public static final int NUMBER_SEVEN = 7;
 
-    public static final int NUMBER_EGG = 8;
+    public static final int NUMBER_EIGHT = 8;
 
-    public static final int NUMBER_NIGHT = 9;
+    public static final int NUMBER_NINE = 9;
 
     public static final int NUMBER_TEN = 10;
 
