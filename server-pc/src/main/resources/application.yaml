@@ -1,0 +1,8 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:mysql://1.12.62.6:3306/laboratory
+    username: theking
+    password: Cjs524821!
+    driver-class-name: com.mysql.cj.jdbc.Driver
