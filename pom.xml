@@ -20,6 +20,7 @@
         <spring.boot>2.7.3</spring.boot>
         <mybatis.spring.boot.starter>2.2.2</mybatis.spring.boot.starter>
         <mysql.connector.java>8.0.30</mysql.connector.java>
+        <easyexcel>3.1.1</easyexcel>
     </properties>
 
     <dependencyManagement>
@@ -48,6 +49,11 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
                 <version>${spring.boot}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>easyexcel</artifactId>
+                <version>${easyexcel}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

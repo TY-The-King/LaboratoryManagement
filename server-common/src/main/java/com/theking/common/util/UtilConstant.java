@@ -1,4 +1,4 @@
-package com.theking.common;
+package com.theking.common.util;
 
 /**
  * @author TheKing
