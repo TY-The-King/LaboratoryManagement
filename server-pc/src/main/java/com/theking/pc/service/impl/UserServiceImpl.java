@@ -5,6 +5,7 @@ import com.theking.pc.mapper.TestMapper;
 import com.theking.pc.service.TestService;
 import com.theking.pc.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 /**
  * @author TheKing
@@ -13,6 +14,7 @@ import org.springframework.beans.factory.annotation.Autowired;
  * @description
  * @date 2022/8/26 14:38
  */
+@Service
 public class UserServiceImpl implements UserService {
 
 

@@ -20,13 +20,15 @@ import java.util.List;
 @RestController
 public class TestController {
 
-
+    private final TestService testService;
 
     @Autowired
-    TestService service;
+    public TestController (TestService testService){
+        this.testService = testService;
+    }
 
     @GetMapping("/get")
     public List<TestEntity> getTest(){
-        return service.getTest();
+        return testService.getTest();
     }
 }
